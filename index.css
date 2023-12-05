@@ -1,0 +1,658 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#section2 {
+  scroll-margin-top: 100px;
+}
+.upwardArrow>a {
+  padding: 0px;
+  height: 35px;
+  z-index: 3;
+  background-color: #616161;
+  position: fixed;
+  padding: 5px 10px;
+  border-radius: 7px;
+  bottom: 35px;
+  right: 51px;
+}
+
+.upwardArrow>a:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.allHeadingM {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.allParagraphM {
+  font-size: 20px;
+}
+
+.allHeading {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.allHeadingS {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.allParagraph {
+  font-size: 17px;
+}
+
+.cont {
+  width: 1145px;
+  margin: 16px auto;
+}
+
+.button {
+  margin: 5px 0px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  width: 130px;
+  height: 43px;
+  display: block;
+  background: linear-gradient(to right, black 50%, white 50%) right bottom / 200% 100%;
+  transition: all 0.3s ease-out 0s;
+}
+
+.button:hover {
+  background-position: left bottom;
+}
+
+.text {
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  transition: all 0.4s ease-out 0s;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.text:hover {
+  color: white;
+}
+
+.NavbarContainer,
+.navItems {
+  display: flex;
+}
+
+.navItems>a {
+  margin: auto 0px;
+  font-size: 14px;
+  padding: 0px 16px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.NavbarContainer {
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.companyLogo {
+  margin: auto 0px;
+}
+
+.companylogo>img {}
+
+.navItems {}
+
+.navtext {}
+
+.talkButton,
+.updown {
+  text-decoration: none;
+}
+
+.section1 {
+  background: url("video/image.gif") 0% 0% / cover no-repeat;
+  height: 26.5rem;
+}
+
+.section1Heading {
+  margin: 74px 0px 12px;
+  padding-top: 76px;
+}
+
+.section1Paragraph {
+  margin: 5px 0px 57px;
+}
+
+.section1ParagraphH {
+  color: rgb(63, 81, 181);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.section1Down {
+  padding: 0px 36rem;
+  width: 10px;
+}
+
+.section1Down>img {
+  margin: 5.7rem auto 0px;
+  left: 166px;
+  position: relative;
+  height: 40px;
+}
+
+.section3 {
+  background-color: rgb(38, 36, 36);
+}
+
+.section3container {}
+
+.section3Heading {
+  padding: 94px 0px 0px;
+  color: white;
+}
+
+.section3Para {
+  padding: 22px 0px;
+  color: white;
+}
+
+.section3Values {
+  padding: 39px 0px 73px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.section3Value {
+  padding: 0px 102px;
+}
+
+.section3ValueH {
+  font-size: 46px;
+  font-weight: 700;
+  color: rgb(90, 107, 198);
+}
+
+.section3ValueP {
+  font-size: 17px;
+  color: white;
+}
+
+.section3B {
+  margin: 5px 70px;
+}
+
+.section4 {
+  padding: 74px 0px;
+}
+
+.section4container {
+  display: flex;
+  border: 18px solid;
+}
+
+.section4Left {}
+
+.section4LeftHeading {
+  padding: 92px 66px 10px;
+}
+
+.section4LeftPara {
+  padding: 10px 68px 11px;
+}
+
+.section5Right>img {
+  height: 26rem;
+  padding: 8px 28px;
+}
+
+.section2container {
+  text-align: center;
+}
+
+.topD {
+  padding: 46px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.dLeft {
+  background-color: black;
+  height: 9px;
+  width: 9px;
+}
+
+.dLine {
+  background-color: black;
+  margin: auto 0px;
+  height: 4px;
+  width: 208px;
+}
+
+.dRight {
+  background-color: black;
+  height: 9px;
+  width: 9px;
+}
+
+.section2Text {
+  padding: 28px;
+}
+
+.brandLogos {
+  margin: 82px auto 210px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brandLogo {
+  padding: 16px 36px;
+  image-rendering: auto;
+  height: 56px;
+  width: auto;
+}
+
+.section5 {}
+
+.section5Container {}
+
+.section5SupHeading {
+  display: flex;
+  width: 100%;
+}
+
+.lineb::before {
+  content: " ";
+  background-color: black;
+  height: 8px;
+  width: 8px;
+  margin: auto 10px auto 0px;
+}
+
+.linewb::before {
+  content: " ";
+  background-color: rgb(255, 255, 255);
+  height: 8px;
+  width: 8px;
+  margin: auto 10px auto 0px;
+}
+
+.lineLa::after {
+  content: " ";
+  border-bottom: solid;
+  width: 86%;
+}
+
+.section5Heading {
+  padding: 55px 0px 14px;
+}
+
+.section5Paragraph {
+  padding: 0px 0px 39px;
+}
+
+.Section5Tcontainer {
+  margin: 30px 0px;
+  display: flex;
+}
+
+.tablinks {
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.tab {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.tabcontent {
+  border-top: 1.5px solid;
+  padding-top: 10px;
+  width: 75%;
+  display: none;
+}
+
+.tabImages {
+  justify-content: space-between;
+  width: 94%;
+  margin: 36px 0px;
+  display: flex;
+}
+
+.tabImage {
+  overflow: hidden;
+}
+
+.imageS:hover {
+  transform: scale(1.2);
+  transition: all 1s ease 0s;
+}
+
+.tabImage1 {
+  height: 19rem;
+  width: auto;
+}
+
+.tabImage2 {
+  height: 19rem;
+  width: auto;
+}
+
+.Sec5TabHead {
+  margin: 0px 0px 27px;
+}
+
+.Sec5TabPara {}
+
+.active {
+  color: rgba(0, 0, 255, 0.64);
+}
+
+.active::before {
+  content: "";
+  background: rgba(0, 0, 255, 0.64);
+}
+
+.section6V {
+  height: auto;
+  width: 100%;
+}
+
+.section6Btm {
+  margin: 45px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6BtmLeft {}
+
+.section6BtmLeftHead {}
+
+.section6BtmLeftParaP {}
+
+.section6BtmRight {}
+
+.section6BtmRightPara {}
+
+.section6BtmRightLink {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.section7 {
+  color: white;
+  background-color: #2C2C31;
+}
+
+.section7SupHeading {
+  display: flex;
+  padding: 52px 0px;
+}
+
+.panel {
+  display: none;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accLeft {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.accLeft:hover {
+  color: rgb(179, 157, 219);
+}
+
+.accLeft:hover::before {
+  background-color: rgb(179, 157, 219);
+}
+
+.accLeft::before {
+  margin: 16px 14px 0px 0px;
+}
+
+.accDateTime {
+  margin: -2px 0px 0px 21px;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.section7acc {
+  border-bottom: 1px solid white;
+  padding-top: 12px;
+  padding-bottom: 29px;
+  transition: 1s;
+}
+
+.accRight {
+
+  font-size: 44px;
+}
+
+.section7Container {
+  padding: auto;
+}
+
+.buttonr {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 152px;
+  height: 42px;
+  display: block;
+  background: linear-gradient(to right, white 50%, #2C2C31 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+.exploreButton {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+  padding: 97px 0px;
+}
+
+.buttonr:hover {
+  background-position: left bottom;
+}
+
+.textr {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 42px;
+  color: white;
+  transition: all .6s ease-out;
+  display: block;
+}
+
+.textr:hover {
+  color: black;
+}
+
+.section8SupHeading {
+  display: flex;
+  padding: 51px 0px;
+}
+
+.section8Paragraph {
+
+  padding: 17px 0px 37px;
+}
+
+.section10Container {}
+
+.section10Card {
+  overflow: hidden;
+  /* height: 32rem; */
+  width: 22rem;
+}
+
+.section10CardI {
+  align-items: center;
+  display: flex;
+  width: 23rem;
+  height: 24rem;
+  overflow: hidden;
+}
+
+.section10CardI>img {
+
+  right: 86px;
+
+  position: relative;
+
+  height: 16rem;
+
+  /* width: 1rem; */
+
+  scale: 1.5;
+}
+
+.section10CardI>img:hover {
+  transition: 1s;
+  scale: 1.8;
+}
+
+.section10CardH {
+  color: rgb(63 63 63);
+  font-size: 17px;
+  margin: 15px 11px 0px;
+}
+.section10CardP{color: black;margin: 12px 44px 14px 9px;}
+.readBtn>a{
+  
+padding: 8px 0px 0px 9px;
+  
+color: black;
+  
+text-decoration: none;
+  
+font-weight: 700;
+  
+float: inline-start;
+} 
+.ExploreButton{
+  text-decoration: none;
+}
+.exploreButtonAlign{
+  
+margin: 115px auto;
+}
+.bgWhite{
+  background-color: white;
+}
+.section11{
+  background-color: #2C2C31;
+}
+.section11Container{
+  text-align: center;
+}
+.section11H{
+  color:white;
+  padding: 44px 0px;
+}
+.section12{
+
+}
+.section12listCont{
+    margin: 33px 42px;
+}
+.section12container{
+
+display: flex;
+
+flex-wrap: wrap;
+}
+.section12H{
+
+font-weight: 600;
+
+font-size: 17px;
+}
+.section12L{
+
+}
+
+.Locations{
+
+}
+.company{
+
+}
+.services{
+
+}
+.resources{
+
+width: 300px;
+}
+.section12L{
+  padding: 0;
+  list-style-type: none;
+  
+}
+.section12L>li{
+
+padding: 5px 0px;
+}
+.section12L>li>a:hover{
+color: #03A9F4;
+scale: 1.1;
+  }
+.section12L>li>a{
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  /* padding: 0px 0px; */
+  margin: 10px 0px;
+}
+.section12Logo{
+
+width: 178px;
+}
+.section12Logo>img{
+padding: 0px 0px 20px 0px;
+}
+.section12footer{
+
+display: flex;
+
+justify-content: space-evenly;
+
+width: 100%;
+
+padding: 0px 0px 30px;
+}
+.sec12fText{
+
+}
+.sec12fLogo{
+
+}
+.sec12fLogo>img{
+  
+padding: 0px 7px;
+  
+height: 24px;
+}
