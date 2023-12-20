@@ -529,15 +529,16 @@ flex-wrap: wrap;
 .section10Card {
   overflow: hidden;
   /* height: 32rem; */
+  margin: auto;
   width: 22rem;
+  padding: 10% 1%;
 }
 
 .section10CardI {
   align-items: center;
   display: flex;
 flex-wrap: wrap;
-  width: 23rem;
-  height: 24rem;
+ 
   overflow: hidden;
 }
 
@@ -682,6 +683,8 @@ padding: 0px 0px 30px;
 padding: 0px 7px;
   
 height: 24px;
+}
+.section10Container {
 }
 @media (max-width: 768px) {
   .section12listCont {

@@ -43,14 +43,12 @@ $(document).ready(function () {
   $(".owl-one").owlCarousel({
     loop: false,
     lazyLoad: true,
-
-    margin: 10,
     responsive: {
       0: {
         items: 1,
       },
       600: {
-        items: 2,
+        items: 1,
       },
       1000: {
         items: 3,
