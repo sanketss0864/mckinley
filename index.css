@@ -204,7 +204,10 @@ flex-wrap: wrap;
   padding: 10%;
 }
 
-.section4Left {}
+.section4Left {
+  width: 50%;
+}
+
 
 .section4LeftHeading {
   
@@ -214,7 +217,9 @@ flex-wrap: wrap;
 
 }
 
-
+.section5Right{
+width: 50%;
+}
   .section5Right>img {
     width: 100%;
     padding: 8px 28px;
@@ -687,6 +692,13 @@ height: 24px;
 .section10Container {
 }
 @media (max-width: 768px) {
+  .section4Left {
+    width: 100%;
+  }
+  .section5Right{
+    width: 100%;
+    }
+  
   .section12listCont {
     margin: 10%;
 }
@@ -711,5 +723,9 @@ height: 24px;
 } 
 }
 @media (max-width: 427px) {
+  .tab{
+    width: 100%;
+    flex-direction: row;
+  }
 
 }
