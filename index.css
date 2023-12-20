@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+.contM{
+  width: 90%;
+  margin: auto;
+}
 
 #section2 {
   scroll-margin-top: 100px;
@@ -46,7 +50,7 @@ html {
 }
 
 .cont {
-  width: 1145px;
+  width: 80%;
   margin: 16px auto;
 }
 
@@ -81,6 +85,8 @@ html {
 .NavbarContainer,
 .navItems {
   display: flex;
+flex-wrap: wrap;
+  flex-wrap: wrap ;
 }
 
 .navItems>a {
@@ -114,7 +120,6 @@ html {
 
 .section1 {
   background: url("video/image.gif") 0% 0% / cover no-repeat;
-  height: 26.5rem;
 }
 
 .section1Heading {
@@ -123,7 +128,7 @@ html {
 }
 
 .section1Paragraph {
-  margin: 5px 0px 57px;
+  margin: 5px 0px 1rem;
 }
 
 .section1ParagraphH {
@@ -133,15 +138,13 @@ html {
 }
 
 .section1Down {
-  padding: 0px 36rem;
-  width: 10px;
+ width: 100%
 }
 
 .section1Down>img {
-  margin: 5.7rem auto 0px;
-  left: 166px;
-  position: relative;
+  margin: 0px 48%;
   height: 40px;
+
 }
 
 .section3 {
@@ -164,6 +167,8 @@ html {
   padding: 39px 0px 73px;
   justify-content: center;
   display: flex;
+flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -192,23 +197,29 @@ html {
 
 .section4container {
   display: flex;
+flex-wrap: wrap;
   border: 18px solid;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10%;
 }
 
 .section4Left {}
 
 .section4LeftHeading {
-  padding: 92px 66px 10px;
+  
 }
 
 .section4LeftPara {
-  padding: 10px 68px 11px;
+
 }
 
-.section5Right>img {
-  height: 26rem;
-  padding: 8px 28px;
+
+  .section5Right>img {
+    width: 100%;
+    padding: 8px 28px;
 }
+
 
 .section2container {
   text-align: center;
@@ -217,6 +228,7 @@ html {
 .topD {
   padding: 46px 0px 0px;
   display: flex;
+flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -246,6 +258,7 @@ html {
 .brandLogos {
   margin: 82px auto 210px;
   display: flex;
+flex-wrap: wrap;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -263,6 +276,7 @@ html {
 
 .section5SupHeading {
   display: flex;
+flex-wrap: wrap;
   width: 100%;
 }
 
@@ -299,6 +313,7 @@ html {
 .Section5Tcontainer {
   margin: 30px 0px;
   display: flex;
+flex-wrap: wrap;
 }
 
 .tablinks {
@@ -306,6 +321,7 @@ html {
   font-weight: 500;
   font-size: 17px;
   display: flex;
+flex-wrap: wrap;
   text-decoration: none;
   color: black;
 }
@@ -313,6 +329,7 @@ html {
 .tab {
   overflow: hidden;
   display: flex;
+flex-wrap: wrap;
   flex-direction: column;
   width: 23%;
 }
@@ -325,14 +342,16 @@ html {
 }
 
 .tabImages {
-  justify-content: space-between;
+ 
   width: 94%;
   margin: 36px 0px;
   display: flex;
+gap: 20px;
 }
 
 .tabImage {
   overflow: hidden;
+  width: fit-content;
 }
 
 .imageS:hover {
@@ -373,6 +392,7 @@ html {
 .section6Btm {
   margin: 45px auto;
   display: flex;
+flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -399,6 +419,7 @@ html {
 
 .section7SupHeading {
   display: flex;
+flex-wrap: wrap;
   padding: 52px 0px;
 }
 
@@ -408,11 +429,13 @@ html {
 
 .accordion {
   display: flex;
+flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .accLeft {
   display: flex;
+flex-wrap: wrap;
   margin: 10px 0px;
 }
 
@@ -492,6 +515,7 @@ html {
 
 .section8SupHeading {
   display: flex;
+flex-wrap: wrap;
   padding: 51px 0px;
 }
 
@@ -511,6 +535,7 @@ html {
 .section10CardI {
   align-items: center;
   display: flex;
+flex-wrap: wrap;
   width: 23rem;
   height: 24rem;
   overflow: hidden;
@@ -581,6 +606,7 @@ margin: 115px auto;
 .section12container{
 
 display: flex;
+flex-wrap: wrap;
 
 flex-wrap: wrap;
 }
@@ -637,6 +663,7 @@ padding: 0px 0px 20px 0px;
 .section12footer{
 
 display: flex;
+flex-wrap: wrap;
 
 justify-content: space-evenly;
 
@@ -655,4 +682,31 @@ padding: 0px 0px 30px;
 padding: 0px 7px;
   
 height: 24px;
+}
+@media (max-width: 768px) {
+  .section12listCont {
+    margin: 10%;
+}
+  .section3B {
+   margin: 0;
+}
+  .section4Left {
+    width: 100%;
+  }
+  .navItems>a {
+    padding: 0px 7px;
+}
+.allHeading {
+  font-size: 14px;
+  font-weight: 700;
+}
+  
+.section12Logo {
+  width: 100%;}
+  .section12Logo>img {
+    padding: 0px 3rem 20px;
+} 
+}
+@media (max-width: 427px) {
+
 }
